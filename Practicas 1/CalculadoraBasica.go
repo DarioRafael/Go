@@ -2,14 +2,17 @@ package main
 
 import "fmt"
 
-func main() {
-	var num, num2, opcion int
-
-	fmt.Print("Primer digito...")
-	fmt.Scanln(&num)
-
-	fmt.Print("Segundo digito...")
+func pedirNumeros() (int, int) {
+	var num1, num2 int
+	fmt.Print("Primer digito: ")
+	fmt.Scanln(&num1)
+	fmt.Print("Segundo digito: ")
 	fmt.Scanln(&num2)
+	return num1, num2
+}
+
+func main() {
+	var opcion int
 
 	fmt.Println("1- Suma")
 	fmt.Println("2- Resta")
@@ -20,16 +23,21 @@ func main() {
 	fmt.Print("Selecciona la opción que gustes...")
 	fmt.Scanln(&opcion)
 
+	num, num2 := pedirNumeros()
 	if opcion == 1 {
 		fmt.Println(num + num2)
-	} else if opcion == 3 {
+	} else if opcion == 2 {
 		fmt.Println(num - num2)
-	} else if opcion == 4 {
+	} else if opcion == 3 {
 		fmt.Println(num * num2)
-	} else if opcion == 5 {
+	} else if opcion == 4 {
 		fmt.Println(num / num2)
-	} else if opcion == 6 {
-		fmt.Println(num)
+	} else if opcion == 5 {
+		resultado := 1
+		for i := 0; i < num2; i++ {
+			resultado *= num
+		}
+		fmt.Println(resultado)
 	}
 
 }
