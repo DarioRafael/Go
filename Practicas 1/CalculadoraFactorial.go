@@ -2,8 +2,17 @@ package main
 
 import "fmt"
 
+func formaRecursiva(num, resultado int) {
+	if num <= 1 {
+		fmt.Println("Factorial:", resultado)
+		return
+	}
+	resultado *= num
+	formaRecursiva(num-1, resultado)
+}
+
 func main() {
-	num := 0
+	/*num := 0
 	resultado := 1
 
 	fmt.Print("Dame el numero entero...")
@@ -13,5 +22,8 @@ func main() {
 		resultado *= i
 		fmt.Println(i, resultado)
 	}
+	*/
+	fmt.Println("\n")
+	formaRecursiva(4, 1)
 
 }
