@@ -31,7 +31,11 @@ func main() {
 	} else if opcion == 3 {
 		fmt.Println(num * num2)
 	} else if opcion == 4 {
-		fmt.Println(num / num2)
+		if num2 != 0 {
+			fmt.Println(num / num2)
+		} else {
+			fmt.Println("Error de dividir entre 0")
+		}
 	} else if opcion == 5 {
 		resultado := 1
 		for i := 0; i < num2; i++ {
