@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func formaRecursiva(num, resultado int) {
-	if num <= 1 {
+	if num < 1 {
 		fmt.Println("Factorial:", resultado)
 		return
 	}
 	resultado *= num
+	fmt.Println(num, resultado)
 	formaRecursiva(num-1, resultado)
 }
 
@@ -24,6 +25,6 @@ func main() {
 	}
 	*/
 	fmt.Println("\n")
-	formaRecursiva(4, 1)
+	formaRecursiva(5, 1)
 
 }
