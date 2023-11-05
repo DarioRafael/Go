@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e7d3bc-698c-42a1-a9cb-e8fe1d2e4eb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CalcularSalario.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcularSalario.go" beforeDir="false" afterPath="$PROJECT_DIR$/CalcularSalario.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../git" beforeDir="false" afterPath="$PROJECT_DIR$/../git" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,15 @@
     &quot;last_opened_file_path&quot;: &quot;/run/media/kawa/4823-93A9/Autodidacta/Go/Practicas 1&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build CalcularSalario.go">
+    <configuration name="go build CalcularSalario.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Practicas 1" />
+      <working_directory value="$PROJECT_DIR$/.." />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/CalcularSalario.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build CalcularTriangulo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Practicas 1" />
       <working_directory value="$PROJECT_DIR$/.." />
@@ -55,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build CalcularSalario.go" />
         <item itemvalue="Go Build.go build CalcularTriangulo.go" />
       </list>
     </recent_temporary>
