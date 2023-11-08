@@ -15,4 +15,6 @@ func main() {
 	fmt.Println(myFloat + float64(myInt))
 
 	fmt.Println(reflect.TypeOf(myFloat))
+
+	fmt.Println("Soy el mejor")
 }
